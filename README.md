@@ -144,11 +144,6 @@ Once the dataset was fully cleaned, I performed an exploratory analysis to uncov
 
 Below is a summary of some of the main EDA queries and what they reveal.
 
-- Which companies had the largest count of layoffs?
-- Which companies had the largest layoffs as a percentage of their workforce?
--
-- How did layoffs evolve month-to-month?
-
 ### 1. Which companies had the largest count of layoffs?
 
 To identify the companies with the largest count of layoffs, I used an aggregate SUM function to get the total layoffs and GROUP BY to focus on the company. This query highlights the total count of layoffs.
